@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(42, 4, 129);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.formulario {
+    display: block;    
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+h1{
+    text-align: left;
+    margin-top:50px;
+}
+
+.imagen-inicio{
+    width: 100px;
+    height: 100px;
+}
+
+.form-ingreso{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.acceso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-msj {
+    display: none;
+    margin: 5px;
+    padding: 10px;
+    color: #970000;
+    border-color: #5e0000;
+    background-color: #ffa2a2;
+    border-radius: 5px;
+}
+
+.cajero {
+    display: none;
+    text-align: center;
+}
+
+.cajero-saldo {
+    display: none;
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 2, 148);
+    border: #001574 solid 2px;
+    background-color:rgb(194, 193, 253);
+    border-radius: 8px;
+}
+
+button{
+    border: none; 
+    padding: 10px 30px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 163, 92);
+}
+
+button:hover{
+    background-color: #6c886e; 
+    transition: 0.4s;
+    opacity: 0.9;
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+    width:180px;
+    margin: 5px;
+
+}
+#saludo{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin: 15px;
+}
+
+.panel {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.panel-btn {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.panel-informacion {
+    display: block;
+    visibility: hidden;
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.panel-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-success {
+    border-color: #00970a;
+    background-color: #95dd99;
+    color: #036309
+}
+
+.mensaje-error {
+    color: #970000;
+    border-color: #5e0000;
+    background-color: #ffa2a2;
+}
+
+

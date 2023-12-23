@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automatico</title>
+    <link rel="stylesheet" href="style.css">
+   <script defer src="main.js"></script> 
+   <script src="https://kit.fontawesome.com/92505372e0.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <h1>MSR</h1>
+    <h2>Cajero Automático</h2>
+    <img class="imagen-inicio" src="imagenes/retiro-de-dinero.png" alt="foto de moneda">
+</header>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <form action="" id="formulario">
+                    <div class="form-ingreso">
+                        <div>
+                            <label for="" class="form-label">Usuario</label>
+                            <input type="text" name="u" id="form-usuario" class="form-input">
+                        </div>
+                        <div>
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" name="c" id="form-password" class="form-input">
+                        </div>
+                        
+                    </div>
+                    <div class="acceso"> 
+                        <button type="submit">Ingresar</button>
+                        <div class="form-msj">
+                            <span id="mensaje-error" class=""></span>
+                        </div>
+                    </div>
+            </form>
+        </div>
+        <div class="cajero">
+            <div id="saludo">
+                <span>Bienvenido <span id="cajero-usuario"></span></span>
+            </div>
+            <button id="btn-consultar">Consultar saldo</button>
+            <button id="btn-ingresar">Ingresar monto</button>
+            <button id="btn-retirar">Retirar monto</button>
+    
+            <div class="cajero-saldo">
+                <span class="saldo-usuario"></span>
+            </div>
+            
+    
+            <div class="panel">
+                <div>
+                    <label for="panel-input" id="panel-label"></label>
+                    <input type="number" id="panel-input">
+                </div>
+                <div class="panel-buttons">
+                    <button id="panel-btn" class="panel-btn">Continuar</button>
+                    <button id="finalizar-btn" class= "panel-btn">Finalizar sesión</button>
+                </div>
+                <div>
+                    <span id="panel-informacion" class="panel-informacion"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
